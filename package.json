@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Get a random developer quote",
   "main": "index.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "ava"
   },
@@ -10,6 +11,7 @@
   "author": "Arnelle Balane <arnellebalane@gmail.com> (arnellebalane.com)",
   "license": "MIT",
   "dependencies": {
+    "meow": "^3.7.0",
     "unique-random-array": "^1.0.0"
   },
   "devDependencies": {
