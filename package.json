@@ -1,6 +1,6 @@
 {
   "name": "devquote",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get a random developer quote",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,8 @@
     "ava": "^0.14.0"
   },
   "ava": {
-    "files": ["tests.js"]
+    "files": [
+      "tests.js"
+    ]
   }
 }
