@@ -6,8 +6,17 @@ Get a random developer quote.
 
 ### Install
 
+You can install it locally:
+
 ```bash
 npm install --save devquote
+```
+
+or globally:
+
+
+```
+npm install --g devquote
 ```
 
 
@@ -25,6 +34,15 @@ devquote();
 #### `devquote()`
 
 Returns a random developer quote.
+
+
+### CLI
+
+```bash
+devquote
+```
+
+Prints a random developer quote in the terminal.
 
 
 ### License
