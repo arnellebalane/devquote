@@ -13,7 +13,7 @@ npm install --save devquote
 
 ### Usage
 
-```bash
+```javascript
 var devquote = require('devquote');
 
 devquote();
