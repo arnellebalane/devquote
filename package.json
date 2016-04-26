@@ -4,12 +4,18 @@
   "description": "Get a random developer quote",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "keywords": [],
   "author": "Arnelle Balane <arnellebalane@gmail.com> (arnellebalane.com)",
   "license": "MIT",
   "dependencies": {
     "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0"
+  },
+  "ava": {
+    "files": ["tests.js"]
   }
 }
