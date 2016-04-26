@@ -7,7 +7,17 @@
   "scripts": {
     "test": "ava"
   },
-  "keywords": [],
+  "keywords": [
+    "random",
+    "array",
+    "list",
+    "quotes",
+    "developer",
+    "devquotes",
+    "devquote",
+    "cli",
+    "cli-app"
+  ],
   "author": "Arnelle Balane <arnellebalane@gmail.com> (arnellebalane.com)",
   "license": "MIT",
   "dependencies": {
