@@ -33,7 +33,14 @@ devquote();
 
 #### `devquote()`
 
-Returns a random developer quote.
+Returns a random developer quote (as an object):
+
+```javascript
+{
+    "text": "...",
+    "author": "..."
+}
+```
 
 
 ### CLI

@@ -10,4 +10,4 @@ meow([
 
 
 var quote = devquote();
-console.log('\n  ' + quote + '\n');
+console.log('\n  ' + quote.text + ' -- ' + quote.author + '\n');

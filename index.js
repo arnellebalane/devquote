@@ -12,8 +12,7 @@ function devquote() {
         var quotes = JSON.parse(fs.readFileSync(quotesPath, 'utf8'));
         randomQuote = uniqueRandomArray(quotes);
     }
-    var quote = randomQuote();
-    return quote.text + ' -- ' + quote.author;
+    return randomQuote();
 }
 
 

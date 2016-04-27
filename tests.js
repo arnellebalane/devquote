@@ -2,9 +2,19 @@ var ava = require('ava');
 var devquote = require('./');
 
 
-ava('returns a string', function implementation(test) {
+ava('should return an object', function implementation(test) {
     var quote = devquote();
-    test.true(typeof quote === 'string');
+    test.true(typeof quote === 'object');
+    test.false(quote instanceof Array);
+    test.truthy(quote);
+});
+
+
+ava('should return an object with the quote text and author',
+function implementation(test) {
+    var quote = devquote();
+    test.true(quote.hasOwnProperty('text'));
+    test.true(quote.hasOwnProperty('author'));
 });
 
 
