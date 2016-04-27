@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 var meow = require('meow');
+var chalk = require('chalk');
 var devquote = require('./');
 
 
@@ -10,4 +11,7 @@ meow([
 
 
 var quote = devquote();
-console.log('\n  ' + quote.text + ' -- ' + quote.author + '\n');
+var text = chalk.bold.magenta(quote.text);
+var author = chalk.dim('-- ' + quote.author);
+
+console.log('\n  ' + text + ' ' + author + '\n');

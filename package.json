@@ -21,6 +21,7 @@
   "author": "Arnelle Balane <arnellebalane@gmail.com> (arnellebalane.com)",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^1.1.3",
     "meow": "^3.7.0",
     "unique-random-array": "^1.0.0"
   },
