@@ -3,6 +3,8 @@ devquote
 
 Get a random developer quote.
 
+![Screenshot](screenshot.jpg)
+
 
 ### Install
 
