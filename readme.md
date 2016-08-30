@@ -16,7 +16,7 @@ or globally:
 
 
 ```
-npm install --g devquote
+npm install -g devquote
 ```
 
 
